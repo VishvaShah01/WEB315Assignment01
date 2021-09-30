@@ -1,0 +1,67 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Programming Languages";
+}
+
+@{
+    var quoteOfDay = "when you don't create things, you become defined by your tastes rather than ability. your tastes only narrow & exclude people. so create.";
+}
+<div>@quoteOfDay</div>
+
+@{
+    quoteOfDay = "Programs must be written for people to read, and only incidentally for machines to execute.";
+}
+<div>@quoteOfDay</div>
+
+@{
+    var ProLang = new[] {
+        new {
+            languageName = "Laravel" ,
+            useBy = "Web Developer",
+            type = "Open Source PHP language"
+        },
+        new {
+            languageName = "Fortan Language",
+            useBy = "Scientists",
+            type = "Number Crushing Language"
+        },
+        new {
+            languageName = "COBOL(Common Business Oriented Language)",
+            useBy = "Governments and Companies",
+            type = " Finance, Administrative and Business Systems"
+        },
+        new{
+            languageName = "Pearl Language",
+            useBy = "Web Developers",
+            type = "UNIX- Based File Management Language"
+        },
+        new {
+            languageName = "Paython",
+            useBy = "Web Developers",
+            type = "open source Programming Language"
+        } 
+    };
+}
+
+@for (var i=0; i<ProLang.Length; i++) 
+{
+    var lang = ProLang[i];
+    <text>Name of the Programming Language : @lang.languageName <br></text>
+    var user = ProLang[i];
+    <text>Programming Language mostly used by : @user.useBy <br></text>
+    var lanType = ProLang[i];
+    <text>Type of the Language : @lanType.type <br></text>
+}
+
+&nbsp;
+<p>Date and Time : @DateTime.Now</p>
+<p>@@prgrammingLanguage</p>
+<p>My Email Id : W0784026@myscc.ca</p>
+<p>Time of Last updated : @(DateTime.Now - TimeSpan.FromDays(1))</p>
+&nbsp:
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
