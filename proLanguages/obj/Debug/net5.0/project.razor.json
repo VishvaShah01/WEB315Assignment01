@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\vishva shah\\AspAss1\\proLanguages\\proLanguages.csproj",
+  "FilePath": "c:\\Users\\vishva shah\\proLanguages\\proLanguages.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,38 +15619,63 @@
   "RootNamespace": "proLanguages",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\vishva shah\\AspAss1\\proLanguages\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\vishva shah\\proLanguages\\Pages\\programming\\Details.cshtml",
+      "TargetPath": "Pages\\programming\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\vishva shah\\AspAss1\\proLanguages\\Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\vishva shah\\AspAss1\\proLanguages\\Pages\\Shared\\_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\vishva shah\\AspAss1\\proLanguages\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\vishva shah\\AspAss1\\proLanguages\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\vishva shah\\AspAss1\\proLanguages\\Pages\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\vishva shah\\proLanguages\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\vishva shah\\AspAss1\\proLanguages\\Pages\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\vishva shah\\proLanguages\\Pages\\programming\\Edit.cshtml",
+      "TargetPath": "Pages\\programming\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vishva shah\\proLanguages\\Pages\\programming\\Index.cshtml",
+      "TargetPath": "Pages\\programming\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vishva shah\\proLanguages\\Pages\\programming\\Delete.cshtml",
+      "TargetPath": "Pages\\programming\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vishva shah\\proLanguages\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vishva shah\\proLanguages\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vishva shah\\proLanguages\\Pages\\Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vishva shah\\proLanguages\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vishva shah\\proLanguages\\Pages\\programming\\Create.cshtml",
+      "TargetPath": "Pages\\programming\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vishva shah\\proLanguages\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vishva shah\\proLanguages\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     }
   ],
