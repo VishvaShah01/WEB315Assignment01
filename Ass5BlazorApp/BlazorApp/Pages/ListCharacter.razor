@@ -1,0 +1,56 @@
+@page "/ListCharacter"
+
+<h1>List for chartacter (@characterList.Count(List => !List.IsFictional))</h1>
+
+<ul>
+    @foreach (var ListChar in characterList)
+    {
+        <li>
+            <input type="checkbox" @bind="ListChar.IsFictional" />
+            <input @bind="ListChar.Name" />
+        </li>
+    }
+
+    @foreach (var ListChar in characterList)
+    {
+        <li>
+            <input type="checkbox" @bind="ListChar.IsFictional"  />
+            <input @bind="ListChar.Profession" />
+        </li>
+    }
+</ul>
+
+<input placeholder="Add Name" @bind="newList" />
+<button @onclick="AddName">Add Your Name</button>
+
+<br>
+<br>
+
+<input placeholder="Add Profession" @bind="newList" />
+<button @onclick="AddProfession">Add Your Profession</button>
+
+
+
+@code {
+    private List<characterBlzorApp> characterList = new();
+    private string newList;
+
+    private void AddName()
+    {
+        if (!string.IsNullOrWhiteSpace(newList))
+        {
+            characterList.Add(new characterBlzorApp { Name = newList });
+            newList = string.Empty;
+        }
+    }
+
+    private void AddProfession()
+    {
+        if (!string.IsNullOrWhiteSpace(newList))
+        {
+            characterList.Add(new characterBlzorApp { Profession = newList });
+            newList = string.Empty;
+        }
+    }
+  
+}
