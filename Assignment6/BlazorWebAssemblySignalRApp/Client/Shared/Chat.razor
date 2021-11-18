@@ -1,0 +1,14 @@
+@page "/"
+@using Microsoft.AspNetCore.SignalR.Client
+@inject NavigationManager NavigationManager
+
+<div class="form-group">
+    <label>
+        chat Room Name:
+        <input @bind="chatRoomName" size="50" />
+    </label>
+</div>
+
+@code {
+    string chatRoomName = "VS's lounge";
+}
