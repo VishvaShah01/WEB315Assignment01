@@ -1,0 +1,26 @@
+@page "/account-login"
+
+<h1>Account LogIn</h1>
+
+<p>USer Name: @userName</p> 
+<input type="text" placeholder="User Name" name="userName"/>
+
+<p>Password: @userPass</p>
+<input type="password" placeholder="Password" name="pass"/> <br><br>
+
+<button class="btn btn-primary" onclick="OnLoginCallback">LOGIN</button>
+
+@code {
+    public bool PasswordVisible = true;
+    public string userName {get; set;}
+    public int userPass {get; set;}
+    public string script = "<script>alert('Login successful');</script>";
+    public string account => PasswordVisible ? script : null;
+
+    public void OnLoginCallback() 
+    {
+       PasswordVisible = !PasswordVisible;
+
+    }
+
+}

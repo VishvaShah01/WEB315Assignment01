@@ -1,0 +1,15 @@
+{
+  "name": "MyBlazorPwa",
+  "short_name": "VishvaShah",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#FFF0F5",
+  "theme_color": "#A52A2A",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
